@@ -17,7 +17,7 @@ import SoftwareDeveloper from 'pedrocastellanos';
 
 class Bio extends SoftwareDeveloper {
     name     = 'Pedro Castellanos Alonso';
-    stack    = 'Frontend Developer';
+    stack    = 'Fullstack Developer';
     location = 'Cuba';
 }
 
