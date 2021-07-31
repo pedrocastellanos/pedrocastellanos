@@ -1,7 +1,7 @@
 # Hi there 👋
 # Welcome to my personal Github repository
 
-I am a frontend developer and a lover of technology
+I am a Fullstack Developer, technology lover and inveterate self-taught
 
 ![GitHub Profile Trophy](https://github-profile-trophy.vercel.app/?username=pedrocastellanos&theme=darkhub&margin-w=45)
 
@@ -33,18 +33,23 @@ class Skills extends SoftwareDeveloper {
     };
 
     othersTecnologies = {
+        frontendFramework: 'React',
+        cssFramework: 'Bootstrap',
+        frontendFramework: 'ExpressJS',
+        databases: {
+            MongoDB: true,
+            MySQL: async () => await learning()
+        },
         versionControl: 'Git',
-        softwareHosting: 'GitHub',
+        softwareHosting: 'Heroku',
         linterns: 'ESLint',
         formaters: 'Prettier',
         tasksRunners: {
             gulp: true,
-            webpack = async () => await learn()
-        }
+            webpack: async () => await learning()
+        },
+        
+        
     };
-
-    frameworks = ['React', 'Bootstrap'];
-
-    node = async () => await learning()
 }
 ```
