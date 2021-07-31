@@ -1,16 +1,34 @@
-### Hi there 👋
+import SoftwareDeveloper from 'pedrocastellanos';
 
-<!--
-**pedrocastellanos/pedrocastellanos** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class Bio extends SoftwareDeveloper {
+    name     = 'Pedro Castellanos Alonso';
+    stack    = 'Frontend Developer';
+    location = 'Cuba';
+}
 
-Here are some ideas to get you started:
+class Skills extends SoftwareDeveloper {
+    languages = ['HTML', 'CSS', 'JavaScript'];
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    preprocessos = {
+        html: 'Pug',
+        css: 'Sass/SCSS',
+        javascript: {
+            typescript: async () => await learning()
+        }
+    };
+
+    othersTecnologies = {
+        versionControl: 'Git',
+        softwareHosting: 'GitHub',
+        linterns: 'ESLint',
+        formaters: 'Prettier',
+        tasksRunners: {
+            gulp: true,
+            webpack = async () => await learn()
+        }
+    };
+
+    frameworks = 'React';
+
+    node = async () => await learning()
+}
