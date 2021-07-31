@@ -35,7 +35,8 @@ class Skills extends SoftwareDeveloper {
     othersTecnologies = {
         frontendFramework: 'React',
         cssFramework: 'Bootstrap',
-        frontendFramework: 'ExpressJS',
+        node: true,
+        backendFramework: 'ExpressJS',
         databases: {
             MongoDB: true,
             MySQL: async () => await learning()
@@ -48,8 +49,6 @@ class Skills extends SoftwareDeveloper {
             gulp: true,
             webpack: async () => await learning()
         },
-        
-        
     };
 }
 ```
