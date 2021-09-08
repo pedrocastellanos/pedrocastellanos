@@ -33,7 +33,9 @@ class Skills extends SoftwareDeveloper {
     };
 
     othersTecnologies = {
-        frontendFramework: 'React',
+        frontendFramework: {
+            'React': true,
+            'NextJS': async () => await learning()
         cssFramework: 'Bootstrap',
         node: true,
         backendFramework: 'ExpressJS',
@@ -43,7 +45,7 @@ class Skills extends SoftwareDeveloper {
         },
         versionControl: 'Git',
         softwareHosting: 'Heroku',
-        linterns: 'ESLint',
+        linters: 'ESLint',
         formaters: 'Prettier',
         tasksRunners: {
             gulp: true,
