@@ -36,6 +36,7 @@ class Skills extends SoftwareDeveloper {
         frontendFramework: {
             'React': true,
             'NextJS': async () => await learning()
+        }
         cssFramework: 'Bootstrap',
         node: true,
         backendFramework: 'ExpressJS',
